@@ -3,7 +3,7 @@ html {
 }
 
 .App-logo {
-  height: 50px;
+  height: 33px;
   width:auto;
   pointer-events: none;
 }
@@ -31,4 +31,43 @@ html {
   max-width:80vw;
   margin:30px auto 60px;
 
+}
+
+.Hero p {
+  margin-top:0;
+}
+
+.Cards {
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  padding:20px 0;
+}
+.Card {
+  display:flex;
+  flex-direction:column;
+  width:176px;
+  height:auto;
+}
+
+.Card p {
+  margin: 5px 0;
+}
+.Card--Image {
+  border-radius:8.9px;
+}
+.Card--Rating,
+.Card--Description,
+.Card--Pricing{
+  display:inline-block;
+  margin:10px;
+}
+.Card--Rating--Star {
+  display:inline;
+  width:14px;
+  height:auto;
+}
+.Card--Description p{
+  word-wrap: break-word;
 }
