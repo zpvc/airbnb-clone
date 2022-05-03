@@ -17,13 +17,11 @@ html {
   box-shadow:0px 3px 7px 0 rgba(0,0,0,0.1);
 }
 .Hero {
-  height:300px;
+  position:relative;
+  display:block;
   padding:20px;
   margin:40px auto;
-  display:block;
-  justify-content: center;
-  align-items:center;
-  position:relative;
+
 }
 .Hero-Image {
   display:block;
@@ -31,6 +29,6 @@ html {
   height:auto;
   max-height:300px;
   max-width:80vw;
+  margin:30px auto 60px;
 
-  margin:0 auto;
 }
